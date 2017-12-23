@@ -2,3 +2,6 @@
 ## Title: BresTimer
 ## Author: Jonathan Webb
 ## Version: 0.1
+
+BresTimer.lua
+BresTimer.xml
