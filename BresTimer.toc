@@ -1,0 +1,4 @@
+## Interface: 70300
+## Title: BresTimer
+## Author: Jonathan Webb
+## Version: 0.1
