@@ -1,8 +1,10 @@
-function HelloWorld(self) 
-	print("Hello World!"); 
-end
-
-function encounterStart(encounterId, encounterName, difficultyID, raidSize)
+-- gets server time
+-- timestamp = GetServerTime()
+local encounterStatus = {
+	size = 0,
+	startTime = 0,
+}
+local function encounterStart(encounterId, encounterName, difficultyID, raidSize)
 	if difficultyID >= 14 and difficultyID <= 16 then
 		print("currently in a raid")
 	end
